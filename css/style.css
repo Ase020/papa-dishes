@@ -41,6 +41,11 @@ body {
   background-color: var(--color-creamson);
 }
 
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
 a {
   text-decoration: none;
   color: inherit;
