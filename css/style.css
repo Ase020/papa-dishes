@@ -187,6 +187,10 @@ a {
   .header__logo {
     padding-left: 0;
   }
+
+  .span {
+    display: none;
+  }
 }
 /* END: header media queries */
 
@@ -239,6 +243,14 @@ a {
 /* END: hero media queries */
 
 /* START: popular media queries */
+@media screen and (max-width: 750px) {
+  .popular-foods__filters {
+    gap: 12px;
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
 @media screen and (max-width: 550px) {
   .popular-foods {
     padding: 64px 32px;

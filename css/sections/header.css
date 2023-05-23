@@ -30,6 +30,10 @@
   cursor: pointer;
 }
 
+.span {
+  color: var(--black-500);
+}
+
 .header__menu,
 .header__menu-mobile {
   padding: 20px;
